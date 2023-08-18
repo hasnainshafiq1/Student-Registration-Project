@@ -1,0 +1,94 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="form">
+<label class="student-1">Student Name:</label><input type="text" class="studentName" required>
+<br>
+<label class="father-1">Father Name:</label>
+<input type="text" class="fatherName" required>
+<br>
+<label class="roll-no">Roll No:</label>
+<input type="text" class="rollno" required>
+<br>
+<label class="week-1">Week Days:</label>
+<input type="radio" name="week" class="week" required>
+<br>
+<label class="weekend-1">Weekend:</label>
+<input type="radio" name="week" class="weekend" required>
+<br>
+<label class="course-1">Choose Course Here:</label>
+<select class="select" required>
+    <option>BlockChain</option>
+    <option>Artificial Inteligence</option>
+    <option>Web & Mobile App</option>
+</select>
+<br>
+<button class="submit-btn" onclick="submit()">Submit</button>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+
+        <label>Student Name: <input type="text" name="student-name" id="student-name" /></label> <br />
+        <label>Father Name: <input type="text" name="father-name" id="father-name" /></label><br />
+        <label>Role Number: <input type="text" name="roll-number" id="roll-number" /></label><br />
+        <label>Weekdays <input type="radio" name="class-timings" value="weekdays" class="class-timings" /></label>
+        <label>Weekend <input type="radio"  name="class-timings" value="weekend" class="class-timings" /></label><br />
+        <select name="subject" id="subject">
+            <option value="" hidden>Select Subject</option>
+            <option value="Web & Mobile App">Web & Mobile App</option>
+            <option value="AI">AI</option>
+            <option value="Blockchain">Blockchain</option>
+        </select><br />
+        <button onclick="registerNewStudent()">Register New Student</button>
+
+    </div>
+
+    <p id="error-msg"></p>
+
+    <div id="students-data">
+              
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html> 
